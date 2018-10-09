@@ -69,48 +69,48 @@ Colemak is how we see the world when mapping:
 
 | Location | Colemak | QWERTY |  Category  | Extend Mapping                |
 |:--------:|:-------:|:------:|:----------:|:------------------------------|
-|   :1:    | F1-F12  |        |  :sound:   | Unchanged :curly_loop:        |
-|   :2:    |    `    |        | :computer: | User Custom (not set)         |
-|   :2:    |   1-9   |        |   :1234:   | F1-F9                         |
-|   :2:    |  0,-,=  |        |   :1234:   | F10-F12                       |
-|   :2:    | DELETE  |        |            | Unchanged :curly_loop:        |
-|   :3:    |    Q    |        | :computer: | Escape                        |
-|   :3:    |    W    |        |  :mouse:   | Mouse wheel scroll up         |
-|   :3:    |    F    |   E    |  :sound:   | Browser Back                  |
-|   :3:    |    P    |   R    |  :sound:   | Browser Forward               |
-|   :3:    |    G    |   T    |  :mouse:   | Mouse move up                 |
-|   :3:    |    J    |   Y    |  :rocket:  | Page Up                       |
-|   :3:    |    L    |   U    |  :rocket:  | Home                          |
-|   :3:    |    U    |   I    |  :rocket:  | Up Arrow                      |
-|   :3:    |    Y    |   O    |  :rocket:  | End                           |
-|   :3:    |    ;    |   P    | :computer: | Forward Delete                |
-|   :3:    |    [    |        | :computer: | Escape                        |
-|   :3:    |    ]    |        | :computer: | Insert :skull:                |
-|   :3:    |    \    |        |  :mouse:   | Horizontal Scroll Left        |
-|   :4:    |  CAPS   |        |  :rocket:  | :tada: Extend Modifier :tada: |
-|   :4:    |    A    |        | :computer: | Option (ALT)                  |
-|   :4:    |    R    |   S    |  :mouse:   | Mouse wheel scroll down       |
-|   :4:    |    S    |   D    | :computer: | Shift                         |
-|   :4:    |    T    |   F    | :computer: | Command :curly_loop:          |
-|   :4:    |    D    |   G    |  :mouse:   | Mouse move down               |
-|   :4:    |    H    |        |  :rocket:  | Page Down                     |
-|   :4:    |    N    |   J    |  :rocket:  | Left arrow                    |
-|   :4:    |    E    |   K    |  :rocket:  | Down arrow                    |
-|   :4:    |    I    |   U    |  :rocket:  | Right arrow                   |
-|   :4:    |    O    |   ;    | :computer: | Delete                        |
-|   :4:    |    '    |        | :computer: | Menu :skull:                  |
-|   :4:    | RETURN  |        | :computer: | Screenshot :curly_loop:       |
-|   :5:    |    \    |        |  :mouse:   | Horizontal Scroll Left        |
-|   :5:    |    Z    |        |  :sound:   | CMD-Z :curly_loop:            |
-|   :5:    |    X    |        |  :sound:   | CMD-X :curly_loop:            |
-|   :5:    |    C    |        |  :sound:   | CMD-C :curly_loop:            |
-|   :5:    |    V    |        |  :sound:   | CMD-V :curly_loop:            |
-|   :5:    |    B    |        |  :mouse:   | Mouse left-click              |
-|   :5:    |    K    |   N    |  :mouse:   | Mouse middle-click            |
-|   :5:    |    M    |        |  :mouse:   | Mouse right-click             |
-|   :5:    |    ,    |        |  :mouse:   | Mouse move left               |
-|   :5:    |    .    |        |  :mouse:   | Mouse move right              |
-|   :5:    |    /    |        |  :mouse:   | Horizontal scroll right       |
+|  :one:   | F1-F12  |        |  :sound:   | Unchanged :curly_loop:        |
+|  :two:   |    `    |        | :computer: | User Custom (not set)         |
+|  :two:   |   1-9   |        |   :1234:   | F1-F9                         |
+|  :two:   |  0,-,=  |        |   :1234:   | F10-F12                       |
+|  :two:   | DELETE  |        |            | Unchanged :curly_loop:        |
+| :three:  |    Q    |        | :computer: | Escape                        |
+| :three:  |    W    |        |  :mouse:   | Mouse wheel scroll up         |
+| :three:  |    F    |   E    |  :sound:   | Browser Back                  |
+| :three:  |    P    |   R    |  :sound:   | Browser Forward               |
+| :three:  |    G    |   T    |  :mouse:   | Mouse move up                 |
+| :three:  |    J    |   Y    |  :rocket:  | Page Up                       |
+| :three:  |    L    |   U    |  :rocket:  | Home                          |
+| :three:  |    U    |   I    |  :rocket:  | Up Arrow                      |
+| :three:  |    Y    |   O    |  :rocket:  | End                           |
+| :three:  |    ;    |   P    | :computer: | Forward Delete                |
+| :three:  |    [    |        | :computer: | Escape                        |
+| :three:  |    ]    |        | :computer: | Insert :skull:                |
+| :three:  |    \    |        |  :mouse:   | Horizontal Scroll Left        |
+|  :four:  |  CAPS   |        |  :rocket:  | :tada: Extend Modifier :tada: |
+|  :four:  |    A    |        | :computer: | Option (ALT)                  |
+|  :four:  |    R    |   S    |  :mouse:   | Mouse wheel scroll down       |
+|  :four:  |    S    |   D    | :computer: | Shift                         |
+|  :four:  |    T    |   F    | :computer: | Command :curly_loop:          |
+|  :four:  |    D    |   G    |  :mouse:   | Mouse move down               |
+|  :four:  |    H    |        |  :rocket:  | Page Down                     |
+|  :four:  |    N    |   J    |  :rocket:  | Left arrow                    |
+|  :four:  |    E    |   K    |  :rocket:  | Down arrow                    |
+|  :four:  |    I    |   U    |  :rocket:  | Right arrow                   |
+|  :four:  |    O    |   ;    | :computer: | Delete                        |
+|  :four:  |    '    |        | :computer: | Menu :skull:                  |
+|  :four:  | RETURN  |        | :computer: | Screenshot :curly_loop:       |
+|  :five:  |    \    |        |  :mouse:   | Horizontal Scroll Left        |
+|  :five:  |    Z    |        |  :sound:   | CMD-Z :curly_loop:            |
+|  :five:  |    X    |        |  :sound:   | CMD-X :curly_loop:            |
+|  :five:  |    C    |        |  :sound:   | CMD-C :curly_loop:            |
+|  :five:  |    V    |        |  :sound:   | CMD-V :curly_loop:            |
+|  :five:  |    B    |        |  :mouse:   | Mouse left-click              |
+|  :five:  |    K    |   N    |  :mouse:   | Mouse middle-click            |
+|  :five:  |    M    |        |  :mouse:   | Mouse right-click             |
+|  :five:  |    ,    |        |  :mouse:   | Mouse move left               |
+|  :five:  |    .    |        |  :mouse:   | Mouse move right              |
+|  :five:  |    /    |        |  :mouse:   | Horizontal scroll right       |
 
 - :sound: : Multimedia
 - :computer: : System/Misc
