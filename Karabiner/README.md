@@ -73,7 +73,7 @@ Karabiner uses QWERTY keys for mapping:
 [SHIFT]      [Z] [X] [C] [V] [B]     [N] [M] [,] [.] [/]           [SHIFT]
 ```
 
-Colemak is how we see the world when mapping:
+Colemak is how we see the world when making mappings in the python script:
 
 ```text
 [TAB]      [Q] [W] [F] [P] [G]     [J] [L] [U] [Y] [;] [{] [}] [\] [BKSPC]
@@ -81,9 +81,10 @@ Colemak is how we see the world when mapping:
 [SHIFT]      [Z] [X] [C] [V] [B]     [K] [M] [,] [.] [/]           [SHIFT]
 ```
 
-### Colemak Extend Mappings
-
+This is Extend:
 ![extend-image][extend-image]
+
+### Colemak Extend Mappings
 
 | Location | Colemak | QWERTY |  Category  | Extend Mapping                |
 |:--------:|:-------:|:------:|:----------:|:------------------------------|
