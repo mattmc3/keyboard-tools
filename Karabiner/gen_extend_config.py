@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
 '''
-Full docs: https://raw.githubusercontent.com/mattmc3/colemak-tools/master/Karabiner/README.md
+Full docs: https://github.com/mattmc3/colemak-tools/tree/master/Karabiner
+Description of Extend: https://forum.colemak.com/topic/2014-extend-extra-extreme/
 
 To generate colemak_extend.json:
 ```bash
