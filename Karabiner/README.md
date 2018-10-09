@@ -11,14 +11,32 @@ Tested on Karabiner-Elements v12, macOS Sierra, High Sierra, and Mojave.
 
 Extend is described [here][extend]. Karabiner-Elements is available [here][karabiner].
 
-## How to run
+## TLDR;
+
+Don't know Python, don't want to mess with a script? Already have
+Karabiner-Elements and are just looking to get started quickly with Extend? No
+problem. Open Terminal on your Mac and do this:
+
+```bash
+mkdir -p ~/.config/karabiner/assets/complex_modifications
+curl -fsSL "https://raw.githubusercontent.com/mattmc3/colemak-tools/master/Karabiner/generated/colemak_extend.json" > ~/.config/karabiner/assets/complex_modifications/colemak_extend.json
+```
+
+## How to run script
 
 From a bash Terminal:
 
 ```bash
 mkdir -p ~/.config/karabiner/assets/complex_modifications
-python3 ./gen_extend_config.py > ~/.config/karabiner/assets/complex_modifications/extend.json
+python3 ./gen_extend_config.py > ~/.config/karabiner/assets/complex_modifications/colemak_extend.json
 ```
+
+## How to add Extend
+
+Install and run Karabiner-Elements. From Karabiner-Elements on your menu bar
+chose Preferences... Go to the "Complex Modifications" tab, and press the
+"Add rule" button. "Extend Mode" should show up if you have properly generated
+the script.
 
 ## How to customize
 
