@@ -120,8 +120,6 @@ Colemak is how we see the world when mapping:
 - :skull: : Deadkey on macOS
 - :tada: : Extend Modifier
 
-![extend][extend]
-
 [homepage]: https://github.com/mattmc3/colemak-tools
 [extend]: https://forum.colemak.com/topic/2014-extend-extra-extreme/
 [karabiner]: https://pqrs.org/osx/karabiner/
