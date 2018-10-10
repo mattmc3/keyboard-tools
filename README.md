@@ -32,12 +32,13 @@ More information about Colemak at [colemak.com][colemak].
 :white_check_mark: **Downloads**
 
 - [Download AutoHotKey here][autohotkey]. AHK works without admin access.
-- The PKL app is [here][pkl], but it's unmaintained
+- The PKL app from colemak.com is unmaintained, but DreymaR's is [better and
+  includes Extend][pkl].
 
 :white_check_mark: **Basics**
 
 - [colemak.com by Shai Coleman][colemak]
-- [The Colemak forums][[colemak-forum]]
+- [The Colemak forums][colemak-forum]
 - [Colemak Subreddit][reddit]
 - [Steam group][steam]
 - [Discord][discord]
@@ -59,11 +60,17 @@ More information about Colemak at [colemak.com][colemak].
 :white_check_mark: **Advocacy**
 
 - [Keyboard layout analyzer][layout-analyzer]
+- [Carpalx Colemak results][carpalx]
+
+:white_check_mark: **Testimonials**
+
+- [mctape](https://mctape.wordpress.com/2012/02/11/a-comprehensive-comparison/)
 
 :white_check_mark: **Topic: vim**
 
-- [Shai posted his vimrc here][vimrc], but mine is in my dotfiles repo.
+- [Shai posted his vimrc here][vimrc], but mine is in my [dotfiles repo][dotfiles].
 - [Ryan Heise][ryanheise] had a pretty cool idea of NEST remappings for vim arrows
+- I prefer [JENK][jenk] for my .vimrc
 
 [colemak]: https://colemak.com
 [colemak-forum]: https://forum.colemak.com/
@@ -71,7 +78,7 @@ More information about Colemak at [colemak.com][colemak].
 [discord]: https://discord.gg/sMNhBUP
 [steam]: https://steamcommunity.com/groups/colemak
 [autohotkey]: https://github.com/Lexikos/AutoHotkey_L/releases
-[pkl]: https://sourceforge.net/projects/pkl/files/Standalone%20Layouts/
+[pkl]: https://github.com/DreymaR/BigBagKbdTrixPKL
 [keybr]: https://www.keybr.com/
 [tarmak]: https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/
 [amphetype]: https://forum.colemak.com/topic/2201-training-with-amphetype/
@@ -84,3 +91,6 @@ More information about Colemak at [colemak.com][colemak].
 [ryanheise]: https://www.ryanheise.com/colemak/
 [typing-test]: https://www.typingtest.com
 [layout-analyzer]: http://patorjk.com/keyboard-layout-analyzer/#/main
+[carpalx]: http://mkweb.bcgsc.ca/carpalx/?colemak
+[dotfiles]: https://github.com/mattmc3/dotfiles
+[jenk]: https://docs.google.com/spreadsheets/d/19l4rQdYZfqpMtdTjvCrYLF2z9OsAqahhPunnw7I831s/edit#gid=589401919

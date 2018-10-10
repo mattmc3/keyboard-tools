@@ -44,13 +44,13 @@ Change the contents of main() to whatever you want. No need to stick with the
 defaults if you don't want to. For example, Opt-Left/Right move forward and
 backward over words - mapping those may be way more useful than the mouse movements.
 
-## Note about Mod-DH
+## Note about Colemak-DH
 
-__Q:__ *I see that this script appears to use vanilla Colemak? What about mod-DH?*
+__Q:__ *I see that this script appears to use vanilla Colemak? What about Colemak-DH?*
 
 __A:__ It doesn't matter. Karabiner uses QWERTY positions to set key maps, and
-mod-DH doesn't change placement of Extend keys since they are positional, so no
-need to worry. Just be sure when you make your own custom mappings, you are
+Colemak-DH doesn't change placement of Extend keys since they are positional, so
+no need to worry. Just be sure when you make your own custom mappings, you are
 looking at the vanilla Colemak position when making an assignment.
 
 ## Other notes
