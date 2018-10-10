@@ -82,10 +82,8 @@ Capslock::Backspace
 #f::Send ^f
 #+Left::Send {ctrl down}{shift down}{Left}{shift up}{ctrl up}
 #+Right::Send {ctrl down}{shift down}{Right}{shift up}{ctrl up}
-#+R::Send {f5}
-$f5::Send {ctrl down}{shift down}R{shift up}{ctrl up}
 
-
+; Test code
 #IfWinActive ahk_class Notepad
 #+F::MsgBox You pressed Win+Spacebar in Notepad.
 #IfWinActive
