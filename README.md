@@ -18,7 +18,8 @@ a place to store what I need to get going fast.
 
 ### AutoHotKey (Windows)
 
-My AHK file for working with Windows machines is in this repo.
+My AHK Colemak file for working on Windows machines is in this repo. Use
+PortableApps.com to
 
 ### Karabiner (macOS)
 
@@ -31,7 +32,9 @@ More information about Colemak at [colemak.com][colemak].
 
 :white_check_mark: **Downloads**
 
-- [Download AutoHotKey here][autohotkey]. AHK works without admin access.
+- Download from [PortableApps.com][portable-apps]
+  - gVim
+  - AutoHotKey
 - The PKL app from colemak.com is unmaintained, but DreymaR's is [better and
   includes Extend][pkl].
 
@@ -94,3 +97,4 @@ More information about Colemak at [colemak.com][colemak].
 [carpalx]: http://mkweb.bcgsc.ca/carpalx/?colemak
 [dotfiles]: https://github.com/mattmc3/dotfiles
 [jenk]: https://docs.google.com/spreadsheets/d/19l4rQdYZfqpMtdTjvCrYLF2z9OsAqahhPunnw7I831s/edit#gid=589401919
+[portable-apps]: https://portableapps.com/download
