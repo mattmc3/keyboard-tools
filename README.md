@@ -30,7 +30,7 @@ script for creating a Karabiner-Elements json config.
 
 More information about Colemak at [colemak.com][colemak].
 
-:white_check_mark: **Downloads**
+### :white_check_mark: Downloads
 
 - Download from [PortableApps.com][portable-apps]
   - gVim
@@ -38,7 +38,7 @@ More information about Colemak at [colemak.com][colemak].
 - The PKL app from colemak.com is unmaintained, but DreymaR's is [better and
   includes Extend][pkl].
 
-:white_check_mark: **Basics**
+### :white_check_mark: Basics
 
 - [colemak.com by Shai Coleman][colemak]
 - [The Colemak forums][colemak-forum]
@@ -47,7 +47,7 @@ More information about Colemak at [colemak.com][colemak].
 - [Discord][discord]
 - [Logos and images][colemak-images]
 
-:white_check_mark: **Learning**
+### :white_check_mark: Learning
 
 - [keybr][keybr]
 - [Learning with Tarmak][tarmak]
@@ -55,25 +55,33 @@ More information about Colemak at [colemak.com][colemak].
 - [Viper's Speedtyping Guide][viper-speedtyping]
 - [Typing Test][typing-test]
 
-:white_check_mark: **Advanced**
+### :white_check_mark: Advanced
 
 - [DreymaR's Big Bag Of Keyboard Tricks][dreymar-bbot]
 - [DreymaR's Extend Extra Extreme][dreymar-extend]
 
-:white_check_mark: **Advocacy**
+### :white_check_mark: Advocacy
 
 - [Keyboard layout analyzer][layout-analyzer]
 - [Carpalx Colemak results][carpalx]
 
-:white_check_mark: **Testimonials**
+### :white_check_mark: Testimonials / Articles
 
 - [mctape](https://mctape.wordpress.com/2012/02/11/a-comprehensive-comparison/)
+- arstechnica did an article in 2014. [Part 1][ars-dvorak1],
+  [part 2][ars-dvorak2], [the finale][ars-dvorak-finale], and
+  [reader reactions][ars-dvorak-reactions].
+- NPR [wrote about Colemak too][npr]
 
-:white_check_mark: **Topic: vim**
+### :white_check_mark: Topic: vim
 
 - [Shai posted his vimrc here][vimrc], but mine is in my [dotfiles repo][dotfiles].
 - [Ryan Heise][ryanheise] had a pretty cool idea of NEST remappings for vim arrows
 - I prefer [JENK][jenk] for my .vimrc
+
+### :white_check_mark: Games
+
+- [ztype]
 
 [colemak]: https://colemak.com
 [colemak-forum]: https://forum.colemak.com/
@@ -98,3 +106,9 @@ More information about Colemak at [colemak.com][colemak].
 [dotfiles]: https://github.com/mattmc3/dotfiles
 [jenk]: https://docs.google.com/spreadsheets/d/19l4rQdYZfqpMtdTjvCrYLF2z9OsAqahhPunnw7I831s/edit#gid=589401919
 [portable-apps]: https://portableapps.com/download
+[npr]: https://www.npr.org/sections/alltechconsidered/2016/09/05/492413673/qwerty-traveled-from-typewriter-to-iphone-but-alternative-keyboards-do-exist
+[ars-dvorak1]: https://arstechnica.com/gadgets/2014/03/my-quest-to-learn-the-dvorak-keyboard-layout-part-1/
+[ars-dvorak2]: https://arstechnica.com/gadgets/2014/04/my-quest-to-learn-the-dvorak-keyboard-layout-part-2/
+[ars-dvorak-finale]: https://arstechnica.com/gadgets/2014/04/my-quest-to-learn-the-dvorak-keyboard-layout-the-grand-finale/
+[ars-dvorak-reactions]: https://arstechnica.com/gadgets/2014/04/readers-react-to-my-quest-to-learn-the-dvorak-keyboard-layout/
+[ztype]: https://zty.pe
