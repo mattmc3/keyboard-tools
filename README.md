@@ -83,6 +83,17 @@ More information about Colemak at [colemak.com][colemak].
 
 - [ztype]
 
+## TLDR;
+
+QWERTY heatmap:
+
+![qwerty-heatmap]
+
+Colemak heatmap:
+
+![colemak-heatmap]
+
+
 [colemak]: https://colemak.com
 [colemak-forum]: https://forum.colemak.com/
 [reddit]: https://www.reddit.com/r/Colemak/
@@ -112,3 +123,5 @@ More information about Colemak at [colemak.com][colemak].
 [ars-dvorak-finale]: https://arstechnica.com/gadgets/2014/04/my-quest-to-learn-the-dvorak-keyboard-layout-the-grand-finale/
 [ars-dvorak-reactions]: https://arstechnica.com/gadgets/2014/04/readers-react-to-my-quest-to-learn-the-dvorak-keyboard-layout/
 [ztype]: https://zty.pe
+[qwerty-heatmap]: https://raw.githubusercontent.com/mattmc3/colemak-tools/master/images/qwerty_heatmap.jpg
+[colemak-heatmap]: https://raw.githubusercontent.com/mattmc3/colemak-tools/master/images/colemak_heatmap.jpg
