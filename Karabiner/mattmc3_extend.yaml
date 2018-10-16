@@ -1,0 +1,75 @@
+---
+title: 'Colemak Extend (mattmc3 version, Python Generated) - github.com/mattmc3/colemak-tools'
+description: 'Extend Mode [Caps Lock as Trigger Key]'
+version: 1.0
+author: mattmc3
+homepage: https://github.com/mattmc3/colemak-tools/tree/master/Karabiner
+extend-modifier: caps_lock
+extend-alone-action: escape
+keyboard: colemak
+mouse-move-distance: 1500
+mouse-scroll-distance: 50
+natural-scrolling: true
+mappings:
+    # number row
+    # - ['`', 'CMD-s']  # user custom - save example
+    - ['1', f1]
+    - ['2', f2]
+    - ['3', f3]
+    - ['4', f4]
+    - ['5', f5]
+    - ['6', f6]
+    - ['7', f7]
+    - ['8', f8]
+    - ['9', f9]
+    - ['0', f10]
+    - ['-', f11]
+    - ['=', f12]
+    # system
+    - [q, esc]
+    - [o, delete]
+    - ["'", delete_forward]
+    - [esc, caps_lock]
+    # navigation
+    - [j, pgup]
+    - [h, pgdn]
+    - [l, home]
+    - [y, end]
+    - [u, up]
+    - [n, left]
+    - [e, down]
+    - [i, right]
+    - [k, OPT-left] # back a word
+    - [m, OPT-right] # forward a word
+    - [f, OPT-up] # move line up
+    - [s, OPT-down] # move line down
+    # mouse
+    - [w, mouse_scroll_up]
+    - [r, mouse_scroll_down]
+    - [/, mouse_scroll_left]
+    - [\, mouse_scroll_right]
+    # unmapped
+    # - ['[', esc]
+    # - [']', ins]
+    # - [space, return]
+    # - [return, CMD-SHIFT-3]
+    # - [g, mouse_move_up]
+    # - [d, mouse_move_down]
+    # - [b, mouse_click_left]
+    # - [k, mouse_click_middle]
+    # - [m, mouse_click_right]
+    # - [',', mouse_move_left]
+    # - [., mouse_move_right]
+    # - [/, mouse_scroll_right]
+    # - [\, mouse_scroll_left]
+    # - [z, CMD-z]
+    # - [x, CMD-x]
+    # - [c, CMD-c]
+    # - [v, CMD-v]
+    # - [f, 'CMD-[']  # browser back
+    # - [p, 'CMD-]']  # browser forward
+    # - [;, delete_forward]
+    # - [a, OPT]
+    # - [s, SHIFT]
+    # - [t, CMD]
+    # - [delete, return]

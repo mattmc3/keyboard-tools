@@ -1,4 +1,4 @@
-# gen_extend_config.py
+# karabiner_config_generator.py
 
 Create a Karabiner-Elements config file that handles Colemak Extend keyboard
 mappings on macOS.
@@ -13,13 +13,13 @@ Extend is described [here][extend]. Karabiner-Elements is available [here][karab
 
 ## TLDR;
 
-Don't know Python, don't want to mess with a script? Already have
-Karabiner-Elements and are just looking to get started quickly with Extend? No
-problem. Open Terminal on your Mac and do this:
+Don't know Python and don't want to mess with a script? Already have
+Karabiner-Elements and just looking to get started quickly with Extend?
+No problem. Open Terminal on your Mac and do this:
 
 ```bash
 mkdir -p ~/.config/karabiner/assets/complex_modifications
-curl -fsSL "https://raw.githubusercontent.com/mattmc3/colemak-tools/master/Karabiner/generated/colemak_extend.json" > ~/.config/karabiner/assets/complex_modifications/colemak_extend.json
+curl -fsSL "https://raw.githubusercontent.com/mattmc3/colemak-tools/master/Karabiner/generated/extend.json" > ~/.config/karabiner/assets/complex_modifications/extend.json
 ```
 
 ## How to run script
@@ -28,7 +28,7 @@ From a bash Terminal:
 
 ```bash
 mkdir -p ~/.config/karabiner/assets/complex_modifications
-python3 ./gen_extend_config.py > ~/.config/karabiner/assets/complex_modifications/colemak_extend.json
+python3 ./karabiner_config_generator.py extend.yaml > ~/.config/karabiner/assets/complex_modifications/extend.json
 ```
 
 ## How to add Extend
@@ -40,18 +40,19 @@ the script.
 
 ## How to customize
 
-Change the contents of main() to whatever you want. No need to stick with the
-defaults if you don't want to. For example, Opt-Left/Right move forward and
-backward over words - mapping those may be way more useful than the mouse movements.
+Make a copy of Extend.yaml and change its contents to suit your needs. No need
+to stick with the defaults if you don't want to, and no need to hack on the
+Python if that's not your thing. The mappings are driven off of whatever is in
+the YAML file.
 
 ## Note about Colemak-DH
 
 __Q:__ *I see that this script appears to use vanilla Colemak? What about Colemak-DH?*
 
-__A:__ It doesn't matter. Karabiner uses QWERTY positions to set key maps, and
-Colemak-DH doesn't change placement of Extend keys since they are positional, so
-no need to worry. Just be sure when you make your own custom mappings, you are
-looking at the vanilla Colemak position when making an assignment.
+__A:__ The YAML settings file supports a keyboard property that understands
+Colemak, Colemak-DH, and QWERTY. At the end of the day Karabiner uses QWERTY
+positions to set its key maps, so you can do your own mappings using whichever
+suits you.
 
 ## Other notes
 
@@ -61,7 +62,7 @@ Command, and there is not a common shortcut for Browser Favorites across web
 browsers. None of the special F1-F12 keys are remapped because Macs already
 handle that. In other words, as great as Extend is, it is somewhat foreign on a
 Mac. This is why this script exists - I give you the closest defaults, but you
-should feel empowered to customize away if you want!
+should feel empowered to customize any way you want!
 
 ## Reference
 
