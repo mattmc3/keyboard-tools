@@ -32,6 +32,9 @@ colemak_to_qwerty_map = dict(zip(list("fpgjluy;rstdneiok"),
 colemakdh_to_qwerty_map = dict(zip(list("fpbjluy;rstkneiodvmh"),
                                    list("ertyuiopsdfhjkl;vbnm")))
 
+dvorak_to_qwerty_map = dict(zip(list("[]',.pyfgcrl/=oeuidhtns-;qjkxbwvz"),
+                                list("-=qwertyuiop[]sdfghjkl;'zxcvbn,./")))
+
 KeyAction = namedtuple('KeyAction', 'action key_code modifiers')
 MouseAction = namedtuple('MouseAction', 'action movement direction')
 mouse_action_map = {
@@ -171,6 +174,8 @@ def standardize_key(key_code, keyboard):
         kbconverter = colemak_to_qwerty_map
     elif keyboard == "colemakdh":
         kbconverter = colemakdh_to_qwerty_map
+    elif keyboard == "dvorak":
+        kbconverter = dvorak_to_qwerty_map
     result = kbconverter.get(result, result)
     result = karabiner_map.get(result, result)
     return result
