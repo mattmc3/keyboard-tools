@@ -9,7 +9,7 @@ extend-alone-action: escape
 keyboard: colemak
 mouse-move-distance: 1500
 mouse-scroll-distance: 50
-natural-scrolling: true
+natural-scrolling: false
 mappings:
     # number row
     # - ['`', 'CMD-s']  # user custom - save example

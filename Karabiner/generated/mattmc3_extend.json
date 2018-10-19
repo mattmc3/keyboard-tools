@@ -743,7 +743,7 @@
           "to": [
             {
               "mouse_key": {
-                "vertical_wheel": 50
+                "vertical_wheel": -50
               }
             }
           ]
@@ -768,7 +768,57 @@
           "to": [
             {
               "mouse_key": {
-                "vertical_wheel": -50
+                "vertical_wheel": 50
+              }
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "name": "extend_mode",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "horizontal_wheel": 50
+              }
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "name": "extend_mode",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "backslash",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "horizontal_wheel": -50
               }
             }
           ]

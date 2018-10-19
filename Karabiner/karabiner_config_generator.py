@@ -36,14 +36,14 @@ KeyAction = namedtuple('KeyAction', 'action key_code modifiers')
 MouseAction = namedtuple('MouseAction', 'action movement direction')
 mouse_action_map = {
     "scroll": {
-        "left": MouseAction('MouseAction', "horizontal_wheel", -1),
-        "right": MouseAction('MouseAction', "horizontal_wheel", 1),
+        "left": MouseAction('MouseAction', "horizontal_wheel", 1),
+        "right": MouseAction('MouseAction', "horizontal_wheel", -1),
         "up": MouseAction('MouseAction', "vertical_wheel", -1),
         "down": MouseAction('MouseAction', "vertical_wheel", 1),
     },
     "move": {
-        "left": MouseAction('MouseAction', "x", -1),
-        "right": MouseAction('MouseAction', "x", 1),
+        "left": MouseAction('MouseAction', "x", 1),
+        "right": MouseAction('MouseAction', "x", -1),
         "up": MouseAction('MouseAction', "y", -1),
         "down": MouseAction('MouseAction', "y", 1),
     },
@@ -97,6 +97,7 @@ modifers_set = set([
 
 
 class ExtendBuilder():
+    ''' Builder for Karabiner Extend JSON '''
     def __init__(self, config):
         self.config = config
         self.keyboard = self.config.get('keyboard', 'qwerty')
@@ -157,8 +158,8 @@ class ExtendBuilder():
             if action.movement == 'pointing_button':
                 result['pointing_button'] = action.direction
             else:
-                distance = self.mouse_scroll_distance if re.search("_wheel", action.movement) else self.mouse_move_distance
-                distance *= self.scroll_mod
+                distance = self.mouse_scroll_distance if re.search(r'_wheel', action.movement) else self.mouse_move_distance
+                distance *= self.scroll_mod if action.movement in ('up', 'down') else 1
                 result['mouse_key'] = {action.movement: distance * action.direction}
         return [result]
 
@@ -187,8 +188,7 @@ def parse_key_sequence(key_sequence, keyboard):
         if movement == "click":
             button_num = 'button{}'.format(mouse_button_map[direction])
             return MouseAction('MouseAction', 'pointing_button', button_num)
-        else:
-            return mouse_action_map[movement][direction]
+        return mouse_action_map[movement][direction]
     else:
         # split the modifiers from the keys
         keys = []
@@ -199,7 +199,7 @@ def parse_key_sequence(key_sequence, keyboard):
                 modifiers.append(karabiner_key)
             else:
                 # f-keys mean we automatically need the function modifier
-                if re.search("^f\d+$", karabiner_key):
+                if re.search(r'^f\d+$', karabiner_key):
                     modifiers.append("fn")
                 keys.append(karabiner_key)
 
@@ -214,6 +214,7 @@ def parse_key_sequence(key_sequence, keyboard):
 
 
 def main():
+    ''' main method for program execution '''
     if len(sys.argv) != 2:
         raise ValueError("Missing yaml config for extend")
 
