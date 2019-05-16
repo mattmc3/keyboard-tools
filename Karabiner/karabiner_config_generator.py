@@ -98,7 +98,8 @@ modifers_set = set([
 
 class ExtendBuilder():
     ''' Builder for Karabiner Extend JSON '''
-    def __init__(self, config):
+    def __init__(self, name, config):
+        self.name = name
         self.config = config
         self.keyboard = self.config.get('keyboard', 'qwerty')
         self.mouse_scroll_distance = int(self.config.get('mouse-scroll-distance', 50))
@@ -122,8 +123,8 @@ class ExtendBuilder():
         self._karabiner = {'title': title,
                            'rules': [{'description': description,
                            'manipulators': [{'from': {'key_code': extend_modifier},
-                             'to': [{'set_variable': {'name': EXTEND_ENABLED_VAR, 'value': 1}}],
-                             'to_after_key_up': [{'set_variable': {'name': EXTEND_ENABLED_VAR, 'value': 0}}],
+                             'to': [{'set_variable': {'name': EXTEND_ENABLED_VAR + self.name, 'value': 1}}],
+                             'to_after_key_up': [{'set_variable': {'name': EXTEND_ENABLED_VAR + self.name, 'value': 0}}],
                              'to_if_alone': [{'key_code': alone_action}],
                              'type': 'basic'}]}]}
 
@@ -134,7 +135,7 @@ class ExtendBuilder():
         to_mapping = self._build_to_mapping(to_action)
 
         result = {'type': 'basic',
-                  'conditions': [{'name': EXTEND_ENABLED_VAR, 'type': 'variable_if', 'value': 1}],
+                  'conditions': [{'name': EXTEND_ENABLED_VAR + self.name, 'type': 'variable_if', 'value': 1}],
                   'from': from_mapping,
                   'to': to_mapping,
                  }
@@ -219,8 +220,9 @@ def main():
         raise ValueError("Missing yaml config for extend")
 
     extend_config_file = Path(sys.argv[1])
-    extend_config = yaml.load(extend_config_file.read_text())
-    builder = ExtendBuilder(extend_config)
+    name = extend_config_file.read_text();
+    extend_config = yaml.safe_load(name)
+    builder = ExtendBuilder(name, extend_config)
     print(builder.json())
 
 
