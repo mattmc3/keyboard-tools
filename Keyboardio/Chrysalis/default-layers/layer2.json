@@ -1,0 +1,468 @@
+{
+  "keymap": [
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 58,
+      "label": "F1"
+    },
+    {
+      "keyCode": 59,
+      "label": "F2"
+    },
+    {
+      "keyCode": 60,
+      "label": "F3"
+    },
+    {
+      "keyCode": 61,
+      "label": "F4"
+    },
+    {
+      "keyCode": 62,
+      "label": "F5"
+    },
+    {
+      "keyCode": 57,
+      "label": "CapsLK",
+      "verbose": "Caps Lock"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 22710,
+      "label": "Track-",
+      "extraLabel": "Media",
+      "verbose": "Prev. track"
+    },
+    {
+      "keyCode": 63,
+      "label": "F6"
+    },
+    {
+      "keyCode": 64,
+      "label": "F7"
+    },
+    {
+      "keyCode": 65,
+      "label": "F8"
+    },
+    {
+      "keyCode": 66,
+      "label": "F9"
+    },
+    {
+      "keyCode": 67,
+      "label": "F10"
+    },
+    {
+      "keyCode": 68,
+      "label": "F11"
+    },
+    {
+      "keyCode": 43,
+      "label": "Tab"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 20481,
+      "label": "Up",
+      "extraLabel": "Mouse"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 20546,
+      "label": "Right",
+      "extraLabel": "M. Btn"
+    },
+    {
+      "keyCode": 20576,
+      "label": "End",
+      "extraLabel": "M. Warp"
+    },
+    {
+      "keyCode": 20521,
+      "label": "NE",
+      "extraLabel": "M. Warp",
+      "verbose": "North-East"
+    },
+    {
+      "keyCode": 76,
+      "label": "Del"
+    },
+    {
+      "keyCode": 40,
+      "label": "Enter"
+    },
+    {
+      "keyCode": 22733,
+      "label": "Play",
+      "extraLabel": "Media",
+      "verbose": "Play / pause"
+    },
+    {
+      "keyCode": 22709,
+      "label": "Track+",
+      "extraLabel": "Media",
+      "verbose": "Next track"
+    },
+    {
+      "keyCode": 2095,
+      "label": "{"
+    },
+    {
+      "keyCode": 2096,
+      "label": "}"
+    },
+    {
+      "keyCode": 47,
+      "label": "["
+    },
+    {
+      "keyCode": 48,
+      "label": "]"
+    },
+    {
+      "keyCode": 69,
+      "label": "F12"
+    },
+    {
+      "keyCode": 74,
+      "label": "Home"
+    },
+    {
+      "keyCode": 20484,
+      "label": "Left",
+      "extraLabel": "Mouse"
+    },
+    {
+      "keyCode": 20482,
+      "label": "Down",
+      "extraLabel": "Mouse"
+    },
+    {
+      "keyCode": 20488,
+      "label": "Right",
+      "extraLabel": "Mouse"
+    },
+    {
+      "keyCode": 20545,
+      "label": "Left",
+      "extraLabel": "M. Btn"
+    },
+    {
+      "keyCode": 20517,
+      "label": "NW",
+      "extraLabel": "M. Warp",
+      "verbose": "North-West"
+    },
+    {
+      "keyCode": 20522,
+      "label": "SE",
+      "extraLabel": "M. Warp",
+      "verbose": "South-East"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 101,
+      "label": "App"
+    },
+    {
+      "keyCode": 80,
+      "label": "Left"
+    },
+    {
+      "keyCode": 81,
+      "label": "Down"
+    },
+    {
+      "keyCode": 82,
+      "label": "Up"
+    },
+    {
+      "keyCode": 79,
+      "label": "Right"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 77,
+      "label": "End"
+    },
+    {
+      "keyCode": 70,
+      "label": "PrnScr",
+      "verbose": "Print Screen"
+    },
+    {
+      "keyCode": 73,
+      "label": "Insert"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 20548,
+      "label": "Middle",
+      "extraLabel": "M. Btn"
+    },
+    {
+      "keyCode": 20518,
+      "label": "SW",
+      "extraLabel": "M. Warp",
+      "verbose": "South-West"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 19682,
+      "label": "Mute",
+      "extraLabel": "Media"
+    },
+    {
+      "keyCode": 23786,
+      "label": "Vol-",
+      "extraLabel": "Media",
+      "verbose": "Volume down"
+    },
+    {
+      "keyCode": 23785,
+      "label": "Vol+",
+      "extraLabel": "Media",
+      "verbose": "Volume up"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 49,
+      "label": "\\"
+    },
+    {
+      "keyCode": 2097,
+      "label": "|"
+    }
+  ],
+  "colormap": [
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15
+  ],
+  "palette": [
+    {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
+    },
+    {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
+    },
+    {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
+    },
+    {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
+    },
+    {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
+    },
+    {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
+    },
+    {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
+    },
+    {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
+    },
+    {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
+    },
+    {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
+    },
+    {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
+    },
+    {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
+    },
+    {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
+    },
+    {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
+    },
+    {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
+    },
+    {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
+    }
+  ]
+}
