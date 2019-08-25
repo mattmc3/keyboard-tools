@@ -1006,7 +1006,7 @@
           "to": [
             {
               "mouse_key": {
-                "vertical_wheel": 50
+                "vertical_wheel": -50
               }
             }
           ]
@@ -1031,7 +1031,7 @@
           "to": [
             {
               "mouse_key": {
-                "vertical_wheel": -50
+                "vertical_wheel": 50
               }
             }
           ]
@@ -1056,7 +1056,7 @@
           "to": [
             {
               "mouse_key": {
-                "y": 1500
+                "y": -1500
               }
             }
           ]
@@ -1081,7 +1081,7 @@
           "to": [
             {
               "mouse_key": {
-                "y": -1500
+                "y": 1500
               }
             }
           ]
