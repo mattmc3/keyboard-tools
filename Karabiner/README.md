@@ -22,6 +22,13 @@ mkdir -p ~/.config/karabiner/assets/complex_modifications
 curl -fsSL "https://raw.githubusercontent.com/mattmc3/colemak-tools/master/Karabiner/generated/extend.json" > ~/.config/karabiner/assets/complex_modifications/extend.json
 ```
 
+Need to install Colemak first? No problem.
+
+```bash
+mkdir -p ~/.config/karabiner/assets/complex_modifications
+curl -fsSL "https://pqrs.org/osx/karabiner/complex_modifications/json/colemak_layout.json" > ~/.config/karabiner/assets/complex_modifications/colemak_layout.json
+```
+
 ## How to run script
 
 From a bash Terminal:
