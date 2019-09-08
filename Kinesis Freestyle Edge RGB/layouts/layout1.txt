@@ -1,0 +1,6 @@
+[hk7]>[meh]
+[hk8]>[hyper]
+[hk9]>[LED]
+[hk10]>[fnshf]
+fn [hk9]>[fntog]
+fn [hk10]>[fnshf]
