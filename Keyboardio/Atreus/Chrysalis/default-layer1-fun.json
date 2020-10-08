@@ -1,0 +1,221 @@
+{
+  "keymap": [
+    {
+      "keyCode": 2078,
+      "label": "!"
+    },
+    {
+      "keyCode": 2079,
+      "label": "@"
+    },
+    {
+      "keyCode": 82,
+      "label": "↑"
+    },
+    {
+      "keyCode": 2081,
+      "label": "$"
+    },
+    {
+      "keyCode": 2082,
+      "label": "%"
+    },
+    {
+      "keyCode": 0,
+      "label": "Blocked",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "Blocked",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 75,
+      "label": "PgUp",
+      "verbose": "Page Up"
+    },
+    {
+      "keyCode": 36,
+      "label": "7",
+      "extraLabel": "&"
+    },
+    {
+      "keyCode": 37,
+      "label": "8",
+      "extraLabel": "*"
+    },
+    {
+      "keyCode": 38,
+      "label": "9",
+      "extraLabel": "("
+    },
+    {
+      "keyCode": 42,
+      "label": "Bksp",
+      "verbose": "Backspace"
+    },
+    {
+      "keyCode": 2086,
+      "label": "("
+    },
+    {
+      "keyCode": 80,
+      "label": "←"
+    },
+    {
+      "keyCode": 81,
+      "label": "↓"
+    },
+    {
+      "keyCode": 79,
+      "label": "→"
+    },
+    {
+      "keyCode": 2087,
+      "label": ")"
+    },
+    {
+      "keyCode": 0,
+      "label": "Blocked",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "Blocked",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 78,
+      "label": "PgDn",
+      "verbose": "Page Down"
+    },
+    {
+      "keyCode": 33,
+      "label": "4",
+      "extraLabel": "$"
+    },
+    {
+      "keyCode": 34,
+      "label": "5",
+      "extraLabel": "%"
+    },
+    {
+      "keyCode": 35,
+      "label": "6",
+      "extraLabel": "^"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 47,
+      "label": "["
+    },
+    {
+      "keyCode": 48,
+      "label": "]"
+    },
+    {
+      "keyCode": 2080,
+      "label": "#"
+    },
+    {
+      "keyCode": 2095,
+      "label": "{"
+    },
+    {
+      "keyCode": 2096,
+      "label": "}"
+    },
+    {
+      "keyCode": 2083,
+      "label": "^"
+    },
+    {
+      "keyCode": 2084,
+      "label": "&"
+    },
+    {
+      "keyCode": 2085,
+      "label": "*"
+    },
+    {
+      "keyCode": 30,
+      "label": "1",
+      "extraLabel": "!"
+    },
+    {
+      "keyCode": 31,
+      "label": "2",
+      "extraLabel": "@"
+    },
+    {
+      "keyCode": 32,
+      "label": "3",
+      "extraLabel": "#"
+    },
+    {
+      "keyCode": 2094,
+      "label": "+"
+    },
+    {
+      "keyCode": 17410,
+      "label": "2",
+      "extraLabel": "LockTo"
+    },
+    {
+      "keyCode": 73,
+      "label": "Insert"
+    },
+    {
+      "keyCode": 227,
+      "label": "LCmd",
+      "verbose": "Left Cmd"
+    },
+    {
+      "keyCode": 225,
+      "label": "LShift",
+      "verbose": "Left Shift"
+    },
+    {
+      "keyCode": 76,
+      "label": "Del"
+    },
+    {
+      "keyCode": 224,
+      "label": "LCtrl",
+      "verbose": "Left Control"
+    },
+    {
+      "keyCode": 226,
+      "label": "LAlt",
+      "verbose": "Left Alt"
+    },
+    {
+      "keyCode": 44,
+      "label": "Space"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 55,
+      "label": "."
+    },
+    {
+      "keyCode": 39,
+      "label": "0",
+      "extraLabel": ")"
+    },
+    {
+      "keyCode": 46,
+      "label": "="
+    }
+  ],
+  "palette": []
+}
