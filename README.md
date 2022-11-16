@@ -18,7 +18,21 @@ is where I want to send them for helpful advocacy and practice materials.
 
 On MacOS, you can remap CAPSLOCK to delete (backspace) with this command:
 
-`hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000039,"HIDKeyboardModifierMappingDst":0x70000002A}]}'`
+```shell
+hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000039,"HIDKeyboardModifierMappingDst":0x70000002A}]}'
+```
+
+To make sure it runs on startup, you can add that snippet to a shell script and then add a login hook like so:
+
+```shell
+sudo defaults write com.apple.loginwindow LoginHook /Users/matt/bin/colemak.sh
+```
+
+To remove login hooks, run:
+
+```shell
+sudo defaults delete com.apple.loginwindow LoginHook
+```
 
 More info [here](http://homeowmorphism.com/2017/05/27/Remap-CapsLock-Backspace-Sierra).
 
