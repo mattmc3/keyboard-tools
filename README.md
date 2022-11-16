@@ -14,6 +14,14 @@ on Colemak on a new machine, or having to figure out how to get productive
 without administrative access. Also, when helping a new Colemak user, this
 is where I want to send them for helpful advocacy and practice materials.
 
+## CAPSLOCK to Backspace
+
+On MacOS, you can remap CAPSLOCK to delete (backspace) with this command:
+
+`hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000039,"HIDKeyboardModifierMappingDst":0x70000002A}]}'`
+
+More info [here](http://homeowmorphism.com/2017/05/27/Remap-CapsLock-Backspace-Sierra).
+
 ## Stuff in this repo
 
 ### AutoHotKey (Windows)
