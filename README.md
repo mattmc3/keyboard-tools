@@ -1,6 +1,6 @@
-# colemak-tools
+# keyboard-tools
 
-This is a simple repo for me to aggregate all my Colemak resources.
+This is a simple repo for me to aggregate all my Colemak and Keyboard resources.
 
 ![Colemak](https://colemak.com/wiki/images/e/ef/Colemak_fingers.png)
 
@@ -130,7 +130,7 @@ Colemak heatmap:
 [autohotkey]: https://github.com/Lexikos/AutoHotkey_L/releases
 [carpalx]: http://mkweb.bcgsc.ca/carpalx/?colemak
 [colemak-forum]: https://forum.colemak.com/
-[colemak-heatmap]: https://raw.githubusercontent.com/mattmc3/colemak-tools/master/images/colemak_heatmap.jpg
+[colemak-heatmap]: https://github.com/mattmc3/keyboard-tools/blob/resources/img/colemak_heatmap.jpg?raw=true
 [colemak-images]: https://drive.google.com/drive/folders/11xPjOWtrL47PzEu5fTaQGQsRGxaYbSAi?usp=sharing
 [colemak]: https://colemak.com
 [colemak-mod-dh]: https://colemakmods.github.io/mod-dh/
@@ -147,7 +147,7 @@ Colemak heatmap:
 [npr]: https://www.npr.org/sections/alltechconsidered/2016/09/05/492413673/qwerty-traveled-from-typewriter-to-iphone-but-alternative-keyboards-do-exist
 [pkl]: https://github.com/DreymaR/BigBagKbdTrixPKL
 [portable-apps]: https://portableapps.com/download
-[qwerty-heatmap]: https://raw.githubusercontent.com/mattmc3/colemak-tools/master/images/qwerty_heatmap.jpg
+[qwerty-heatmap]: https://github.com/mattmc3/keyboard-tools/blob/resources/img/qwerty_heatmap.jpg?raw=true
 [reddit]: https://www.reddit.com/r/Colemak/
 [ryanheise]: https://www.ryanheise.com/colemak/
 [steam]: https://steamcommunity.com/groups/colemak
