@@ -25,7 +25,7 @@ hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x70
 To make sure it runs on startup, you can add that snippet to a shell script and then add a login hook like so:
 
 ```shell
-sudo defaults write com.apple.loginwindow LoginHook /Users/matt/bin/colemak.sh
+sudo defaults write com.apple.loginwindow LoginHook ~/bin/colemak.sh
 ```
 
 To remove login hooks, run:
