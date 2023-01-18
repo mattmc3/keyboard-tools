@@ -112,6 +112,12 @@ More information about Colemak at [colemak.com][colemak].
 
 - [dvzine][dvzine]
 
+###  :white_check_mark: History
+
+- [Smithsonian - fact fiction](https://www.smithsonianmag.com/arts-culture/fact-of-fiction-the-legend-of-the-qwerty-keyboard-49863249/)
+- [The Atlantic - lies you've been told](https://www.theatlantic.com/technology/archive/2013/05/the-lies-youve-been-told-about-the-origin-of-the-qwerty-keyboard/275537/)
+- [BBC - how QWERTY became popular](https://www.bbc.com/news/business-47460499)
+
 ## TLDR;
 
 QWERTY heatmap:
