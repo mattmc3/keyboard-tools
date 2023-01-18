@@ -1,0 +1,27 @@
+[keys.normal]
+# -------------------------
+# HNEI - QWERTY to Colemak remaps
+# [JY] [LU] [UI] [..]
+#  [..] [NJ] [EK] [IL]
+#   [KN] [..] [..] [..]
+# -------------------------
+# N <=> K (swap, QWERTY position)
+n = "move_line_down"
+N = "keep_selections"
+k = "search_next"
+K = "search_prev"
+# E <=> J (swap actions)
+j = "move_next_word_end"
+J = "move_next_long_word_end"
+e = "move_line_up"
+E = "join_selections"
+# ILU loop
+# I => L
+i = "move_char_right"
+I = "no_op"
+# U => I (QWERTY position)
+u = "insert_mode"
+U = "insert_at_line_start"
+# L => U (QWERTY position)
+l = "undo"
+L = "redo"

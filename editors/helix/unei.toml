@@ -1,0 +1,34 @@
+[keys.normal]
+# -------------------------
+# QWERTY to Colemak - UNEI arrows
+# [YJ] [UL] [IU] [..]
+#  [..] [JN] [KE] [LI]
+#   [NK] [..] [..] [..]
+#
+# ** To move the cursor, press the u,n,e,i keys as indicated. **
+#           ^
+#           u          Hint: Colemak UNEI is in a typical arrow key configuration
+#     < n   e   i >          Gamers used to WASD can quickly see the UNEI similarity
+#           v
+#
+# -------------------------
+# N <=> K (swap, K is in the QWERTY N position)
+n = "move_line_left"
+N = "keep_selections"
+k = "search_next"
+K = "search_prev"
+# E <=> J (swap - J now 'jumps words')
+e = "move_line_down"
+E = "join_selections"
+j = "move_next_word_end"
+J = "move_next_long_word_end"
+# H <=> I (swap - H is just a sideways I)
+i = "move_char_right"
+I = "no_op"
+h = "insert_mode"
+H = "insert_at_line_start"
+# U <=> L (swap)
+u = "move_line_up"
+U = "no_op"
+l = "undo"
+L = "redo"
