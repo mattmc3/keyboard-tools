@@ -1,0 +1,23 @@
+{
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // colemak
+    // arrows: hjkl -> neui
+    { "before": ["n"], "after": ["h"] },
+    { "before": ["N"], "after": ["H"] },
+    { "before": ["e"], "after": ["j"] },
+    { "before": ["E"], "after": ["J"] },
+    { "before": ["u"], "after": ["k"] },
+    { "before": ["U"], "after": ["K"] },
+    { "before": ["i"], "after": ["l"] },
+    { "before": ["I"], "after": ["L"] },
+    // now fix neui -> kjlh
+    { "before": ["k"], "after": ["n"] },
+    { "before": ["K"], "after": ["N"] },
+    { "before": ["j"], "after": ["e"] },
+    { "before": ["J"], "after": ["E"] },
+    { "before": ["l"], "after": ["u"] },
+    { "before": ["L"], "after": ["U"] },
+    { "before": ["h"], "after": ["i"] },
+    { "before": ["H"], "after": ["I"] },
+  ]
+}
