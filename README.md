@@ -153,7 +153,7 @@ Colemak heatmap:
 [colemak-heatmap]: https://github.com/mattmc3/keyboard-tools/blob/resources/img/colemak_heatmap.jpg?raw=true
 [colemak-images]: https://drive.google.com/drive/folders/11xPjOWtrL47PzEu5fTaQGQsRGxaYbSAi?usp=sharing
 [colemak]: https://colemak.com
-[colemak-angle-mod]: https://colemakmods.github.io/ergonomic-mods/gfx/angle/colemak_keyb_ansi_angle.png
+[colemak-angle-mod]: https://github.com/mattmc3/keyboard-tools/blob/resources/img/colemak_keyb_ansi_angle.png?raw=true
 [colemak-mod-dh]: https://colemakmods.github.io/mod-dh/
 [colemak-mod-extend]: https://colemakmods.github.io/ergonomic-mods/extend.html
 [discord]: https://discord.gg/sMNhBUP
