@@ -41,11 +41,15 @@ More info [here](http://homeowmorphism.com/2017/05/27/Remap-CapsLock-Backspace-S
 ### AutoHotKey (Windows)
 
 My AHK Colemak file for working on Windows machines is in this repo. Use
-PortableApps.com to
+PortableApps.com to install AHK.
+
+### Hammerspoon (macOS)
+
+I use Hammerspoon to map F18/F19 to extend/hyper. The init.lua script is in this repo.
 
 ### Karabiner (macOS)
 
-My Karabiner scripts are in this repo. The main one of interest is the Python
+My old Karabiner scripts are in this repo. The main one of interest is the Python
 script for creating a Karabiner-Elements json config.
 
 ## Handy links
