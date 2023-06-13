@@ -28,7 +28,7 @@ To make sure it runs on startup, you can add that snippet to a shell script and 
 sudo defaults write com.apple.loginwindow LoginHook ~/bin/colemak.sh
 ```
 
-To remove login hooks, run:
+To remove the login hook, run:
 
 ```shell
 sudo defaults delete com.apple.loginwindow LoginHook
@@ -122,6 +122,16 @@ More information about Colemak at [colemak.com][colemak].
 - [The Atlantic - lies you've been told](https://www.theatlantic.com/technology/archive/2013/05/the-lies-youve-been-told-about-the-origin-of-the-qwerty-keyboard/275537/)
 - [BBC - how QWERTY became popular](https://www.bbc.com/news/business-47460499)
 
+## Angle mod
+
+Colemak Angle mod:
+
+![colemak-angle-mod]
+
+QWERTY Angle mod:
+
+![z_with_ring]
+
 ## TLDR;
 
 QWERTY heatmap:
@@ -143,6 +153,7 @@ Colemak heatmap:
 [colemak-heatmap]: https://github.com/mattmc3/keyboard-tools/blob/resources/img/colemak_heatmap.jpg?raw=true
 [colemak-images]: https://drive.google.com/drive/folders/11xPjOWtrL47PzEu5fTaQGQsRGxaYbSAi?usp=sharing
 [colemak]: https://colemak.com
+[colemak-angle-mod]: https://colemakmods.github.io/ergonomic-mods/gfx/angle/colemak_keyb_ansi_angle.png
 [colemak-mod-dh]: https://colemakmods.github.io/mod-dh/
 [colemak-mod-extend]: https://colemakmods.github.io/ergonomic-mods/extend.html
 [discord]: https://discord.gg/sMNhBUP
@@ -167,3 +178,4 @@ Colemak heatmap:
 [viper-speedtyping]: https://forum.colemak.com/topic/2455-vipers-speedtyping-guide/
 [wikipedia]: https://en.wikipedia.org/wiki/Colemak
 [ztype]: https://zty.pe
+[z_with_ring]: https://github.com/mattmc3/keyboard-tools/blob/resources/img/z_with_ring.png?raw=true
