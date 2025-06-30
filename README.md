@@ -14,6 +14,10 @@ on Colemak on a new machine, or having to figure out how to get productive
 without administrative access. Also, when helping a new Colemak user, this
 is where I want to send them for helpful advocacy and practice materials.
 
+## Looking for advice about switching?
+
+The advice I typically give boils down to [what I state here](advice.md).
+
 ## CAPSLOCK to Backspace
 
 On MacOS, you can remap CAPSLOCK to delete (backspace) with this command:
